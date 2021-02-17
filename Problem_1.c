@@ -14,8 +14,12 @@ int main()
     scanf("%d", &N);
 
     //Write your code here
-       
-       
+    int i,sum=0;
+    for(i=1;i<=N;i++)
+    {
+      sum = sum + i;
+    }
+    printf("The sum of the first N terms is %d\n",sum);    
        
        
        
